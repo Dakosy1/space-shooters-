@@ -12,13 +12,16 @@ Enemy spaceships with random colors (red, green, blue) and the ability to shoot 
 Health bar for the player, displayed at the bottom of the screen.
 Lives counter to keep track of the player's remaining lives.
 Levels that increase in difficulty with more enemy spaceships in each wave.
+
 How to Play
+
 Use the W, A, S, D keys to move the player spaceship (up, left, down, right).
 Press the SPACEBAR to shoot lasers and destroy enemy spaceships.
 Avoid collisions with enemy spaceships and their lasers.
 The game ends when the player runs out of lives or health.
 
 Installation
+
 Ensure you have Python installed on your machine.
 Install the Pygame library using the following command:
 pip install pygame
@@ -27,6 +30,7 @@ Run the script by executing the following command in the terminal:
 python space_shooter.py
 
 Assets
+
 The game uses pixel art assets for spaceships, lasers, and the background. You can find these assets in the "assets" folder.
 
 Player Spaceship: pixel_ship_yellow.png
@@ -35,18 +39,23 @@ Lasers: pixel_laser_yellow.png, pixel_laser_red.png, pixel_laser_green.png, pixe
 Background: background-black.png
 
 Code Structure
+
 The code is organized into classes for the main elements of the game: Laser, Ship, Player, and Enemy.
 Collision detection is implemented using masks to check for overlaps between objects.
 The main function runs the game loop, handles player input, and manages enemy waves.
 The main_menu function displays a simple menu to start the game.
+
 Dependencies
+
 Python 3.x
 Pygame library
 
 Credits
+
 This code is a tutorial implementation and uses assets from an external source (not specified in the provided code).
 
 License
+
 This code is provided without a specific license. Please refer to the licenses of the included assets for more information.
 
 Enjoy playing the space shooter game!
